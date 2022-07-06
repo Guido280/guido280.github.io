@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,60  0;1,700;1,800;1,900&display=swap');
+*{
+
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: #3a6cf4;
+}
+.nav a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+.nav a:hover {
+    color: navy;
+    text-decoration: navy;
+}
+section{
+    padding: 100px 200px;
+}
+.main_sec{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("images/backg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+.hello{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-top: 100px ;
+}
+.dif{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 3em;
+    font-weight: 700;
+    color: #4e9eef;
+}
+.main_sec div h3 {
+
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.main_button{
+    display: inline-block;
+    color: white;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+    padding: 0.9375em 2.1875em;
+    margin-bottom: 40px;
+    border-radius: 17px;
+    transition: 0.7s ease;
+}
+.main_button:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+.social a {
+    display: inline-block;
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+    transition: 0.5s ease;
+}
+.social a:hover{
+    transform: scale(1.5);
+    color: gray;
+
+}
+.my-soc {
+    color: white;
+    font-size:0.5em;
+    font-weight: 700;
+}

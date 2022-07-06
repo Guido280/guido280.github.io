@@ -44,7 +44,7 @@ section{
     display: flex;
     align-items: center;
     background: url("images/backg.jpg") no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-attachment: fixed;
 
